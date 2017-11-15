@@ -1,8 +1,11 @@
 {
   "name": "antlr4",
-  "version": "4.6",
+  "version": "4.6.0-patched.0",
   "description": "JavaScript runtime for ANTLR4",
   "main": "src/antlr4/index.js",
+  "publishConfig": {
+    "registry": "https://www.myget.org/F/ed-fi/npm/"
+  },
   "repository": "antlr/antlr4.git",
   "keywords": [
     "lexer",
